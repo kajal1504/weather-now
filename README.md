@@ -51,6 +51,8 @@ Geocoding API → https://geocoding-api.open-meteo.com/v1/search?name={city}
 
 Weather API → https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
 
-Deploy →
+Deploy Stackblitz → https://stackblitz.com/github/kajal1504/weather-now/tree/master
+
+Deploy Netlify → https://apiwheather.netlify.app/
 
 
