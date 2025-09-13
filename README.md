@@ -1,12 +1,56 @@
-# React + Vite
+🌤 Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React + TailwindCSS application that allows users to check the current weather conditions in any city using the Open-Meteo API.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌎 Search weather by city name
 
-## Expanding the ESLint configuration
+📍 Uses Open-Meteo Geocoding API to find city coordinates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌡 Displays temperature, wind speed, and weather conditions
+
+📱 Fully responsive (mobile, tablet, desktop)
+
+⚡ Built with Vite + React + TailwindCSS and Open-Meteo API
+
+
+📂 Folder Structure
+weather-now/
+│── public/
+│   └── favicon.ico
+│
+│── src/
+│   ├── components/
+│   │   ├── WeatherForm.jsx     # Search form for city input
+│   │   ├── WeatherCard.jsx     # Displays weather data
+│   │
+│   ├── App.jsx                 # Main app container
+│   ├── index.css               # Tailwind CSS setup
+│   └── main.jsx                # Entry point
+│
+│── package.json
+│── tailwind.config.js
+│── vite.config.js
+
+⚙️ Installation & Setup
+1. Clone the Repository
+git clone https://github.com/your-username/weather-now.git
+cd weather-now
+
+2. Install Dependencies
+npm install
+
+3. Run Development Server
+npm run dev
+
+
+🌐 API Used
+
+Geocoding API → https://geocoding-api.open-meteo.com/v1/search?name={city}
+
+Weather API → https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
+
+Deploy →
+
+
